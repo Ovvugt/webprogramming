@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar van Vugt</title>
+</head>
+<body>
+    <style>
+        html, body {
+            background-color: slategray;
+            color: white;
+            margin: 0 20px;
+        }
+        #title {
+            color: white;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+        }
+        #about {
+            display: flex;
+        }
+        .text {
+            width: 60%;
+        }
+        .picture {
+            width: 40%;
+            height: 256px;
+        }
+        .picture > img {
+            aspect-ratio: 1/1;
+            height: 100%;
+            margin: 0 auto;
+            display: block;
+        }
+        #sidebar {
+            width: 15%;
+            float: left;
+            border: black solid 1px;
+            padding: 10px;
+            padding-right: -12px;
+        }
+        #content {
+            width: 80%;
+            float: right;
+            font-family: 'Courier New', Courier, monospace
+        }
+
+    </style>
+    <h1 id="title">Oscar van Vugt</h1>
+    <div>
+        <div id="sidebar">
+            <h2>Content</h2>
+            <ul>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#schools">Schools</a></li>
+                <li><a href="#contact">My contact information</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="about">
+                <div class="text">
+                    <h2>About me</h2>
+                    <p>Hi there, this is a small page about me. If you do not know me yet, my name is Oscar. I am a 21 year old Computer Science student from the Netherlands.
+                        I also have a very cute dog, which you can see on the right side of this page.
+                        <br> I am currently in my fourth year of my Bachelors Program, which gave me the opportunity to do my minor abroad. For this minor I am currently in Taiwan at the National Taiwan University of Technology.
+                    </p>
+                </div>
+                
+                <div class="picture">
+                    <img src="blondie.jpg" alt="Blondie" title="My dog blondie">
+                </div>
+            </div>
+            <hr>
+            <div id="schools">
+                <h2>Schools</h2>
+                <ol>
+                    <li><a target="_blank" href="https://cbsdegroenehoek.nl/"><img src="https://cbsdegroenehoek.nl/files/files/degroenehoek/logo.jpg" alt="Primary School"></a></li>
+                    <li><a target="_blank" href="https://lentiz.nl/reviuslyceum/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIxnCRWqAP-FU2WpVEIVEEDH7ZIvdutj_keA9YGtRTR8bcwzYlSxoR2ErDKP4fGBLnVw&usqp=CAU" alt="High School"></a></li>
+                    <li><a target="_blank" href="https://hr.nl/"><img height=120 src="https://cdn.avepoint.com/cpassets/images/logos/Hogeschool-Rotterdam-logo-resized.png" alt=""></a></li>
+                    <li><a target="_blank" href="https://www-en.ntut.edu.tw/"><img height=120 src="https://coeng.ntut.edu.tw/var/file/17/1017/img/2921/unnamed.png" alt="Taipei Tech"></a></li>
+                </ol>
+            </div>
+            <hr>
+            <div id="contact">
+                <h2>My contact information</h2>
+                <address>
+                    Email: <a href="mailto:oscar.vugt@gmail.com">oscar.vugt@gmail.com</a>
+                </address>
+            </div>
+        </div>
+        
+    </div>    
+</body>
+</html>
