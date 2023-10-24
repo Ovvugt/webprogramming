@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th {
+            background-color: khaki;
+            font-weight: bold;
+        }
+        td {
+            color: white;
+            background-color: teal;
+        }
+        p {
+            margin-bottom: 0;
+        }
+
+        .color-button {
+            box-shadow: 0 0 0 1px black;
+            width: 50px;
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 250px;" border="1" id="table">
+        <tr>
+            <th>Math</th>
+            <th>English</th>
+            <th>Programming</th>
+        </tr>
+        <tr>
+            <td>90</td>
+            <td>60</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>80</td>
+            <td>86</td>
+            <td>98</td>
+        </tr>
+    </table>
+    <div>
+        <p>Change the table width</p>
+        <button id="b250">250px</button>
+        <button id="b400">400px</button>
+    </div>
+    <div>
+        <p>Change the border and the spacing width</p>
+        <button id="b1">1px</button>
+        <button id="b10">10px</button>
+        <button id="b20">20px</button>
+    </div>
+    <div>
+        <p>Change the table color</p>
+        <button class="color-button" style="background-color: teal;" id="bTeal"></button>
+        <button class="color-button" style="background-color: gray;" id="bGray"></button>
+        <button class="color-button" style="background-color: red;" id="bRed"></button>
+        <button class="color-button" style="background-color: black;" id="bBlack"></button>
+    </div>
+    <button style="margin-top: 20px;" id="bReset">Reset</button>
+    <script src="assignment.js">
+    </script>
+</body>
+</html>
